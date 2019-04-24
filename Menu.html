@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="author" content="Kevin Duchampt & Julien Guillaud">
+      <link rel="stylesheet" type="text/css" href="Menu.css">
+      <script src="Morpion.js"></script>
+  </head>
+
+  <body>
+      <h1>Morpion</h1>
+      <hr/>
+      <br/>
+      <h2>Menu principal</h2>
+      <p id="regle">Le but du jeu est d’aligner avant son adversaire 3 symboles identiques horizontalement, verticalement ou en diagonale.
+        Chaque joueur a donc son propre symbole, une croix pour l’un et un rond pour l’autre. Celui qui prend la croix commence.
+        Les deux joueurs jouent chacun leur tour dans l'une des cases libres.
+      </p>
+      <p id="regle">La partie se termine quand l’un des joueurs réussit à aligner 3 symboles ou quand la grille est complétée sans vainqueur.
+        Dans ce cas, il y a égalité.
+      </p>
+      <p id="regle">Attention, le joueur qui débute est toujours avantagé pour gagner. Pensez donc à alterner !</p>
+      <p id="regle">Notre intelligence artificielle est très évoluée. Il existe cependant une solution, dans un cas très précis, qui
+      permet de la vaincre ! À vous de la trouver ☺
+      </p>
+      <br/>
+      <p id="choix">Choisissez votre symbole</p>
+      <br/>
+      <img id="jou1" src="Images/Joueur1.jpg" alt="Jouer en 1er" onclick="ouvreMorpion('1');" onmouseover="survole('jou1')" onmouseout="enleve('jou1')"/>
+      <img id="jou2" src="Images/Joueur2.jpg" alt="Jouer en 2nd" onclick="ouvreMorpion('2');" onmouseover="survole('jou2')" onmouseout="enleve('jou2')"/>
+  </body>
+
+</html>

@@ -1,0 +1,38 @@
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#resultat {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  visibility: hidden;
+}
+
+table {
+  margin: auto;
+  border-collapse:collapse;
+}
+
+#i2, #i5, #i8 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+#j2 {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#rejou {
+  margin-right: 20%;
+}
+
+#menu {
+  margin-left: 20%;
+}
+

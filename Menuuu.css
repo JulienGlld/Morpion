@@ -1,0 +1,41 @@
+body {
+  background-color: #00aaff;
+}
+
+hr {
+  color: black;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #00ff00;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#regle {
+  text-align: justify;
+  font-size: 25px;
+  margin: 10px;
+}
+
+#choix {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+#jou1, #jou2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
